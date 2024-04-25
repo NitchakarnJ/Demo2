@@ -10,6 +10,8 @@ const monthOfTheYear = (date = new Date()) => {
     return months[date.getMonth()];
 }
 
+
+
 try {
     document.getElementById('day').innerText = dayOfTheWeek();
     document.getElementById('month').innerText = monthOfTheYear();
